@@ -1,5 +1,5 @@
-import { DataTable } from "../node_modules/simple-datatables/dist/module";
-import axios from "../node_modules/@bundled-es-modules/axios/axios";
+import { DataTable } from "../node_modules/simple-datatables/dist/module/index.js";
+import axios from "../node_modules/@bundled-es-modules/axios/axios.js";
 
 let tableEl = document.querySelector("table");
 axios
