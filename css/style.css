@@ -1,0 +1,24 @@
+.container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+.filter {
+  background-color: rgba(25, 25, 200, 0.5);
+  height: 100px;
+  position: relative;
+  bottom: 100px;
+  z-index: 5;
+  line-height: 6;
+  align-content: middle;
+}
+h1 {
+  text-align: center;
+}
+.green {
+  background: green;
+}
+.red {
+  background: red;
+}
